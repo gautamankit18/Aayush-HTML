@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEPAL - Explore the Land of the Himalayas</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f8fb;
+      color: #333;
+    }
+
+    /* Header Style */
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #1f2833;
+      color: #66fcf1;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    /* Scrollable Navigation Bar */
+    .navbar {
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      background-color: #45a29e;
+      padding: 10px;
+    }
+
+    .navbar a {
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #66fcf1;
+      color: #1f2833;
+    }
+
+    /* Map Image */
+    .map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+
+    }
+
+    .map img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Description Section */
+    .description {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      gap: 40px;
+    }
+
+    /* Individual Section */
+    .section {
+      display: flex;
+      flex-direction: row;
+      max-width: 800px;
+      width: 100%;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .section h2 {
+      font-size: 1.8rem;
+      color: #1f2833;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    /* Text Content */
+    .text {
+      flex: 1;
+    }
+
+    /* Image Content */
+    .image {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .image img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    NEPAL
+  </header>
+
+  <!-- Scrollable Navigation Bar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="places.html">Places to Visit</a>
+    <a href="festivals.html">Festivals</a>
+    <a href="food.html">Food</a>
+  </div>
+
+  <!-- Map Image -->
+  <div class="map">
+    <img src ="map-of-nepal.png" alt="Map of Nepal">
+  </div>
+
+  <!-- Description Section -->
+  <div class="description">
+
+    <!-- Geography Section -->
+    <div class="section">
+      <div class="text">
+        <h2>Geography</h2>
+        <p>Nepal is a landlocked country situated between China and India. It is home to eight of the world’s highest peaks, including Mount Everest. The geography of Nepal varies dramatically, from the tropical plains of the Terai in the south to the towering Himalayan mountains in the north.</p>
+      </div>
+      <div class="image">
+        <img src="geography.jpg" alt="Mountains in Nepal">
+      </div>
+    </div>
+
+    <!-- History Section -->
+    <div class="section">
+      <div class="text">
+        <h2>History</h2>
+        <p>Nepal has a rich and diverse history, deeply rooted in Hindu and Buddhist traditions. It was unified by King Prithvi Narayan Shah in the 18th century and became a democratic republic in 2008 after years of monarchy. The country has preserved its cultural heritage through temples, palaces, and ancient sites.</p>
+      </div>
+      <div class="image">
+        <img src="history.jpg" alt="Ancient Temple in Nepal">
+      </div>
+    </div>
+
+    <!-- Unique Features Section -->
+    <div class="section">
+      <div class="text">
+        <h2>Unique Features</h2>
+        <p>Nepal is known for its vibrant festivals, diverse ethnic groups, and welcoming people. The capital city, Kathmandu, is famous for its UNESCO World Heritage sites, while places like Lumbini, the birthplace of Buddha, attract spiritual seekers from around the world.</p>
+      </div>
+      <div class="image">
+        <img src="features.jpg" alt="Festivals in Nepal">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
